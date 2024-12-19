@@ -15,6 +15,9 @@ export default {
         textDark: "#003554",
         textLight: "#486A6C",
       },
+      fontFamily: {
+        material: ["Material Symbols Rounded", "sans-serif"],
+      },
     },
   },
   plugins: [],
