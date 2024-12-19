@@ -10,7 +10,7 @@ const LandingPage = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center space-y-5 px-5 text-center">
         <img
-          src="/Images/Terapinisec-Blue-Transparent.png"
+          src="/Images/TerapiniSec-Blue-Transparent.png"
           alt="TerapiniSeç Logo"
           className="w-40 h-40 md:w-52 md:h-52"
         />
