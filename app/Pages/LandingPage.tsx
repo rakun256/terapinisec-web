@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const LandingPage = () => {
@@ -9,12 +8,10 @@ const LandingPage = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center space-y-5 px-5 text-center">
-        <Image
-          alt="TerapiniSeç Logo"
+        <img
           src="/Images/Terapinisec-Blue-Transparent.png"
-          width={150}
-          height={150}
-          className="md:w-[200px] md:h-[200px]"
+          alt="TerapiniSeç Logo"
+          className="w-40 h-40 md:w-52 md:h-52"
         />
         <div className="flex flex-col items-center space-y-3 md:space-y-5 text-center text-textDark">
           <h1 className="text-4xl md:text-6xl font-bold">TerapiniSeç</h1>
