@@ -1,5 +1,5 @@
 "use client"
-import AppPreview from "./Pages/AppPreview";
+//import AppPreview from "./Pages/AppPreview";
 import Navbar from "./Components/Navbar";
 import LandingPage from "./Pages/LandingPage";
 
@@ -8,7 +8,6 @@ export default function Home() {
     <div className="">
       <Navbar />
       <LandingPage />
-      <AppPreview />
     </div>
   );
 }

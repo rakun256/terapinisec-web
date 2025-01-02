@@ -10,4 +10,9 @@ declare global {
       axesHelper: ReactThreeFiber.Object3DNode<THREE.AxesHelper, typeof THREE.AxesHelper>;
     }
   }
+  namespace React {
+      namespace JSX {
+        type IntrinsicElements = ThreeElements;
+      }
+    }
 }

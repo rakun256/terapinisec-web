@@ -1,4 +1,4 @@
-'use client';
+/*'use client';
 import React from "react";
 
 const AppPreview = () => {
@@ -9,4 +9,4 @@ const AppPreview = () => {
   );
 };
 
-export default AppPreview;
+export default AppPreview;*/
